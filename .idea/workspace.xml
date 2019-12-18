@@ -2,28 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da8e698b-e4d0-478c-8eb6-3c74cf67dc9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Clustering.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits-embedding.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digits-raw.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exploration.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kmeans.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Clusters.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 0.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 2.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 4.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 6.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 7.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 8.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputs/Digit 9.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kmeans_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Clustering.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Clustering.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/digits-embedding.csv" beforeDir="false" afterPath="$PROJECT_DIR$/digits-embedding.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exploration.py" beforeDir="false" afterPath="$PROJECT_DIR$/exploration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmean_analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kmeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/kmeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Clusters.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/Clusters.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 0.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/Digit 9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/outputs/visualization.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/outputs/visualization.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +45,8 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Assignment 4" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kmean_analysis">
+  <component name="RunManager" selected="Python.test">
     <configuration name="exploration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Clustering" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -82,6 +83,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hierarchical" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Clustering" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hierarchical.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="kmean_analysis" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Clustering" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +118,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/kmean_analysis.py" />
+      <option name="SCRIPT_NAME" value="C:\1. Rakin\Courses\CS573DataMining\Assignments\Assignment 5\Clustering\kmeans_analysis.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Clustering" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +162,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -150,9 +173,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.kmean_analysis" />
+        <item itemvalue="Python.hierarchical" />
         <item itemvalue="Python.kmeans" />
-        <item itemvalue="Python.utils" />
         <item itemvalue="Python.exploration" />
       </list>
     </recent_temporary>
@@ -172,7 +196,16 @@
       <workItem from="1574141387074" duration="590000" />
       <workItem from="1574141996871" duration="2217000" />
       <workItem from="1574199523489" duration="9636000" />
-      <workItem from="1574222980823" duration="2360000" />
+      <workItem from="1574222980823" duration="13569000" />
+      <workItem from="1574296734873" duration="5289000" />
+      <workItem from="1574472725887" duration="18464000" />
+      <workItem from="1574732950293" duration="16706000" />
+      <workItem from="1574775961378" duration="4183000" />
+      <workItem from="1574783884292" duration="1826000" />
+      <workItem from="1574800513901" duration="8926000" />
+      <workItem from="1574882014894" duration="16753000" />
+      <workItem from="1574980044763" duration="12917000" />
+      <workItem from="1575333485914" duration="28000" />
     </task>
     <servers />
   </component>
@@ -193,9 +226,11 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Clustering$utils.coverage" NAME="utils Coverage Results" MODIFIED="1574134890702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Clustering$kmean_analysis.coverage" NAME="kmean_analysis Coverage Results" MODIFIED="1574225387277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Clustering$exploration.coverage" NAME="exploration Coverage Results" MODIFIED="1574049211212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Clustering$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1574222920147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Clustering$utils.coverage" NAME="utils Coverage Results" MODIFIED="1574476146101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Clustering$kmean_analysis.coverage" NAME="kmean_analysis Coverage Results" MODIFIED="1575001417419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Clustering$test.coverage" NAME="test Coverage Results" MODIFIED="1575002701614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Clustering$exploration.coverage" NAME="exploration Coverage Results" MODIFIED="1574882192175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Clustering$hierarchical.coverage" NAME="hierarchical Coverage Results" MODIFIED="1574897766534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Clustering$kmeans.coverage" NAME="kmeans Coverage Results" MODIFIED="1574882196697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
